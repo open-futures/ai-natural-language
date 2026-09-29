@@ -1,0 +1,13 @@
+[package]
+name = "tts-sdk"
+version = "3.0.0"
+edition = "2021"
+description = "Rust binding for the TTS SDK (TTF/ATTF v3.0)"
+license = "MIT"
+links = "tts"
+
+[lib]
+name = "tts"
+path = "src/lib.rs"
+
+[dependencies]

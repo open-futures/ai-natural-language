@@ -1,0 +1,12 @@
+ATTF_MEM:3.0
+mem_zone:active|last_sync:2026-09-29
+400:1,sys_prompt,0x00A1,9.9
+400:2,episodic,0x0BF2,8.5
+401:0x00A1,["kernel","agent"]
+401:0x0BF2,["memory","alloc","slab"]
+
+P1:0x00A1
+You are a kernel optimization agent. Be terse.
+P2:0x0BF2
+User asked about memory allocators; suggested slab allocator.
+

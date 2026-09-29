@@ -1,0 +1,25 @@
+[TTF_LE:2.0]
+---
+tfd:
+  tfd_id: 1
+  next_tfd: 0
+  encoding: "UTF-8"
+tags:
+  - id: 256
+    name: "DocumentTitle"
+    value: "TTS v3.5 Sample Dossier"
+  - id: 273
+    name: "SectionLayouts"
+    value:
+      - section: 1
+        offset_chars: 0
+        length_chars: 27
+        sha256: "f0a0cd89acd69f78720594deff441fd5ab6c366dafedc9a5d758675717f6b87d"
+      - section: 2
+        offset_chars: 27
+        length_chars: 20
+        sha256: "843eb6297689063a403a73a2f892cdd4343d8b23a3e5f411f7bfd8fa584e485d"
+---
+[DATA_STREAM_START]
+First section. UTF-8: 你好 🌍.Second section. End.
+[TTF_EOF]

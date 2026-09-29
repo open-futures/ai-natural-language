@@ -1,0 +1,11 @@
+{
+  "name": "@tts/sdk",
+  "version": "3.0.0",
+  "description": "Node.js binding for the TTS SDK (TTF/ATTF v3.0)",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node test/"
+  },
+  "gypfile": true
+}
